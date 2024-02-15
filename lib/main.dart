@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.blueGrey, // AppBar color
           actions: <Widget>[
             IconButton(
-              icon: const Icon(Icons.info_outline, color: Colors.white), // Info Icon
+              icon: const Icon(Icons.bloodtype_outlined, color: Colors.white), // Info Icon
               onPressed: () {
                 showDialog(
                   context: context,
@@ -82,6 +82,7 @@ class _MyAppState extends State<MyApp> {
           ],
         ),
         bottomNavigationBar: NavigationBar(
+          // navigation bar
           onDestinationSelected: (int index) {
             setState(() {
               currentPageIndex = index;
