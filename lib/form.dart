@@ -89,7 +89,7 @@ class MyCustomFormState extends State<MyCustomForm> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        child: const Text('Check Blood Pressure'),
+                        child: const Text('Show Info'),
                       ),
                     ),
                   ],
