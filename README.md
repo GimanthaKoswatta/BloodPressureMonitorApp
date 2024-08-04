@@ -1,16 +1,34 @@
-# bloodpresureapp
+# Blood Pressure Monitor App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The Blood Pressure Monitor App is a mobile application developed using Flutter, Material UI, and GetX for state management. It allows users to input their blood pressure readings and classifies these readings into different categories based on standard medical guidelines.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Input Screen:** Users can input their systolic and diastolic blood pressure values.
+- **Validation:** The app validates the input values to ensure they are within a reasonable range.
+- **Information Screen:** Displays categorized information based on the user’s input values, such as Normal, Elevated, Hypertension Stage 1, Hypertension Stage 2, and Hypertensive Crisis.
+- **Navigation:** Smooth navigation between the input screen and the information screen.
+- **Widget Hierarchy Diagram:** Detailed diagram of the widget hierarchy used in the app.
+- **DartDoc Files:** Generated documentation for the Dart code used in the project.
+- **Comprehensive Lessons Learned Section:** A detailed section explaining the lessons learned during the development of the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Key Learning Outcomes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter Development:** Utilized Flutter for developing a robust and responsive mobile application.
+- **Material UI:** Implemented Material UI components for a clean and user-friendly interface.
+- **State Management:** Employed GetX for efficient state management and navigation.
+- **Form Validation:** Integrated form validation to ensure accurate and meaningful user input.
+- **Documentation:** Generated DartDoc files for comprehensive documentation of the codebase.
+- **Version Control:** Used GitHub for version control, including committing changes, managing branches, and collaborating.
+- **Health Metrics:** Gained an understanding of blood pressure metrics and their medical significance.
+
+## UI of the App
+
+<p align="center">
+  <img src="screenshots/Home Screen.png" alt="Home Screen" width="200"/>
+  <img src="screenshots/Info Screen.png" alt="Home Screen" width="200"/>
+  <img src="screenshots/Error Screen.png" alt="Home Screen" width="200"/>
+  <img src="screenshots/Chart.png" alt="Home Screen" width="200"/>
+</p>
